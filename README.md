@@ -1,12 +1,13 @@
 # Fable Generator (with GPT-2)
-Generates structured short stories about a given topic. Each line starts with some words that cue the model into following the basic form of a story. Uses the base form of GPT-2 (no fine-tuning involved).
+Generates structured short stories about a given topic. Each line starts with some words that prompt the model into following the basic form of a story. Uses the base form of GPT-2 (no fine-tuning involved).
 
-### Template:
-- Once upon a time, there was... (generate 3 sentences)  
-- One day... (1 sentence)  
-- But... (1 sentence)  
-- So... (1 sentence)  
-- The moral of the story is, ... (1 sentence)  
+### Story Template:
+- The following is a classic fable about {topic}: (prompt suggests a fable, introduces topic. removed from final output)
+- Once upon a time, there was... (introduction)
+- One day... (suggests that some event occurs)  
+- But... (suggests a twist or conflict)  
+- So... (suggests resolution)  
+- And legend has it that to this very day, ... (suggests a conclusion)  
 - The end.  
 
 ### Examples:  
