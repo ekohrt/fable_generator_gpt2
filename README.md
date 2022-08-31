@@ -1,5 +1,7 @@
 # Fable Generator (with GPT-2)
-Generates structured short stories about a given topic. Each line starts with some words that prompt the model into following the basic form of a story. Uses the base form of GPT-2 (no fine-tuning involved).
+<img src="/decoration_image_2.png" width="625" height="200" alt="Image generated with MidJourney"/>
+
+Generates text-based short stories about a given topic. Each line starts with some words that prompt the model into following the basic form of a story. Uses the base form of GPT-2 from Hugging Face (no fine-tuning involved).
 
 ### Story Template:
 - The following is a classic fable about {topic}: (prompt suggests a fable, introduces topic. removed from final output)
