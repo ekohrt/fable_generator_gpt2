@@ -1,5 +1,5 @@
 # Fable Generator (with GPT-2)
-<img src="/decoration_image_2.png" width="625" height="200" alt="Image generated with MidJourney"/>
+<img src="/decoration_image_2.png" width="625" height="200" title="Image generated with MidJourney, just for decoration."/>
 
 Generates text-based short stories about a given topic. Each line starts with some words that prompt the model into following the basic form of a story. Uses the base form of GPT-2 from Hugging Face (no fine-tuning involved).
 
